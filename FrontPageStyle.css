@@ -1,0 +1,254 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Apply box-sizing globally */
+    font-family: 'Arima', 'Noto Sans', sans-serif; /* Use the imported fonts */
+}
+
+.flex-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #fab371; /* Add background color for better visibility */
+    padding: 20px; /* Add padding to the header */
+    margin: 0; /* Remove any default margin */
+}
+
+.flex-links img {
+    height: 60px;  
+    width: 60px;
+    margin-right: 20px; /* Space between logo and links */
+}
+.flex-links a.s1 {
+    position: relative;
+    top: 35px;
+    left: 103px;
+    margin: 0;
+}
+.flex-links a#i2 {
+    position: relative;
+    top: 35px;
+    left: 112px;
+    margin: 0;
+}
+.flex-links > a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px; /* Space between links */
+    transition: color 0.3s;
+}
+
+.flex-links > a:hover {
+    color: rgb(170, 247, 47);
+}
+
+.flex-links > a:visited {
+    text-decoration: none;
+}
+
+#MainBody {
+    background-color: hsl(203, 84%, 83%);
+    background-size: cover;
+    height: 750px; /* Adjust to fit the content */
+    max-width: 1670px; /* Adjust for 1080p display */
+    margin: 0 auto; /* Center horizontally */
+    position: relative;
+    padding: 20px; /* Add padding to avoid content touching edges */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+}
+
+#MainBody img {
+    max-width: 30%; /* Adjust width to fit the layout */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Changed to relative to keep it within the flex container */
+}
+
+#MainBody .text-container {
+    max-width: 60%; /* Ensure the text container doesn't overlap with the image */
+    margin-left: 20px; /* Add space between the image and text */
+    margin-top: 10px;
+    position: relative;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+#MainBody h1 {
+    color: #fab371; /* Matching the header background */
+    font-size: 2.5em; /* Large font size for prominence */
+    margin: 20px 0 10px 0; /* Space around the heading */
+    font-family: 'Arima', sans-serif; /* Use matching font */
+}
+
+#MainBody h3 {
+    color: #333; /* Darker shade for readability */
+    font-size: 1.2em; /* Slightly smaller than h1 */
+    margin: 10px 0; /* Space around the subheading */
+    font-family: 'Noto Sans', sans-serif; /* Use matching font */
+}
+
+#MainBody p {
+    color: #000; /* Black for readability */
+    font-size: 1.1em; /* Standard size for body text */
+    margin: 10px 0; /* Space around the paragraph */
+    font-family: 'Noto Sans', sans-serif; /* Use matching font */
+
+}
+
+#regbutton{
+    border: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 200px;
+    left: 520px;
+    background-color: coral;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+}
+#regbutton:hover{
+    border: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 200px;
+    left: 520px;
+    background-color: rgb(240, 255, 80);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+}
+
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #121111; /* Add background color for better visibility */
+    padding: 30px; /* Add padding to the header */
+    padding-bottom: 40px;
+    margin: 0; /* Remove any default margin */
+    height: 250px;
+
+}
+
+.flex-footer>section.left{
+
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.flex-footer>section.left h2{
+    font-weight:300;
+}
+
+.flex-footer>section.left h3{
+    font-weight:300;
+}
+
+.flex-footer>section.middle img#i{
+    width: 35px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    left: 460px;
+    bottom: -22px;
+
+}
+
+.flex-footer>section.middle img#i4{
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    left: 350px;
+    bottom: -30px;
+
+}
+.flex-footer>section.middle img#i3{
+    width: 45px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    left: 390px;
+    bottom: -29px;
+
+}
+.flex-footer>section.middle img#i2{
+    width: 42px;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    left: 430px;
+    bottom: -26px;
+
+}
+
+
+
+
+.flex-footer>section.right h3{
+    color: white;
+    font-weight:300;
+    font-size: 150%;
+    position: relative;
+    left: 600px;
+    bottom: 15px;
+}
+
+.flex-footer>section.right textarea{
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.flex-footer>section.right textarea{
+    resize: none;
+    
+}
+
+.flex-footer > section.right textarea:hover {
+    background-color: rgb(0, 204, 119);
+    resize: none;
+    margin: 0;
+}
+
+.flex-footer > section.right input {
+    background-color:white;
+    position: relative;
+    left: 610px;
+    bottom: 29px;
+    border-radius:10px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 0;
+}
+
+.flex-footer > section.right input:hover {
+    background-color:rgb(0, 204, 119);
+    position: relative;
+    left: 610px;
+    bottom: 29px;
+    border-radius:10px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: 0;
+}
